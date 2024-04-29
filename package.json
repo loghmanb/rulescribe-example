@@ -1,0 +1,22 @@
+{
+  "name": "rulescribe-example",
+  "version": "1.0.0",
+  "description": "Rulescribe eamples project",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Rulescribe",
+    "BusinessRulesEngine",
+    "Example"
+  ],
+  "author": "Loghman Barari",
+  "license": "ISC",
+  "dependencies": {
+    "rulescribe": "^0.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

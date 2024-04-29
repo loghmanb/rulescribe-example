@@ -1,2 +1,2 @@
-# rulescribe-example
+# Rulescribe example project
 Rulescribe examples
