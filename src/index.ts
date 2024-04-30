@@ -1,3 +1,5 @@
-import { Parser, Lexer } from "rulescribe";
+import testRulescribeForBuyNowPayLater from "./buyNowPayLater";
 
-const parser = new Parser(new Lexer("k = 1"));
+(async () => {
+    await testRulescribeForBuyNowPayLater();
+})();
