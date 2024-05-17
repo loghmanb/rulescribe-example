@@ -18,8 +18,6 @@ By leveraging RuleScribe, you can dynamically determine whether to offer the "Bu
 
 #### 2. Mortgage Eligibility (mortgageEligibility.ts)
 
-**RuleScribe Showcase: Mortgage Eligibility Assessment**
-
 This example showcases how RuleScribe can revolutionize mortgage eligibility assessment in the banking sector. By leveraging RuleScribe, financial institutions can efficiently evaluate applicants' eligibility for different mortgage types based on predefined criteria. Let's explore the rules outlined in `mortgageEligibilityRules.rs`:
 
 **Rule "Prime Mortgage Eligibility"**
