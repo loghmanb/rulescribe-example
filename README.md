@@ -16,6 +16,38 @@ This example showcases how RuleScribe can be used in an e-commerce context to im
 
 By leveraging RuleScribe, you can dynamically determine whether to offer the "Buy Now, Pay Later" option to customers during checkout, providing them with flexibility and convenience while ensuring responsible credit management.
 
+#### 2. Mortgage Eligibility (mortgageEligibility.ts)
+
+**RuleScribe Showcase: Mortgage Eligibility Assessment**
+
+This example showcases how RuleScribe can revolutionize mortgage eligibility assessment in the banking sector. By leveraging RuleScribe, financial institutions can efficiently evaluate applicants' eligibility for different mortgage types based on predefined criteria. Let's explore the rules outlined in `mortgageEligibilityRules.rs`:
+
+**Rule "Prime Mortgage Eligibility"**
+- **Conditions**:
+    - Applicant's credit score is greater than or equal to 700.
+    - Applicant's debt-to-income ratio is less than or equal to 0.4.
+    - Property appraisal value is greater than or equal to $200,000.
+- **Action**:
+    - Eligible applicants are granted access to prime mortgage options.
+
+**Rule "Standard Mortgage Eligibility"**
+- **Conditions**:
+    - Applicant's credit score is greater than or equal to 600.
+    - Applicant's debt-to-income ratio is less than or equal to 0.5.
+    - Property appraisal value is greater than or equal to $150,000.
+    - Applicants are not eligible for prime mortgages.
+- **Action**:
+    - Eligible applicants qualify for standard mortgage offerings.
+
+**Rule "Subprime Mortgage Eligibility"**
+- **Conditions**:
+    - Applicant's credit score is greater than or equal to 500.
+    - Applicant's debt-to-income ratio is less than or equal to 0.6.
+    - Property appraisal value is greater than or equal to $100,000.
+    - Applicants are not eligible for prime or standard mortgages.
+- **Action**:
+    - Eligible applicants are offered subprime mortgage solutions.
+
 ### Real-World Integration
 
 In practice, rules managed by RuleScribe are often stored in databases, file systems, or other storage solutions. Additionally, APIs may be implemented to facilitate communication between the application and RuleScribe, allowing for synchronous or asynchronous rule execution.
