@@ -1,6 +1,6 @@
 {
   "name": "rulescribe-example",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Rulescribe eamples project",
   "scripts": {
     "build": "tsc",
@@ -14,7 +14,7 @@
   "author": "Loghman Barari",
   "license": "ISC",
   "dependencies": {
-    "rulescribe": "^0.3.5"
+    "rulescribe": "^0.3.6"
   },
   "devDependencies": {
     "typescript": "^5.4.5"
